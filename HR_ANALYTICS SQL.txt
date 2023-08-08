@@ -1,0 +1,22 @@
+**DATA CLEANING**
+1--changed column name--alter table-change column
+2--changed data type of date format ---using case statement
+3--chnage datatype of birthdate,hiredate from 'text' to date--alter table--modify column
+4--change datetime format to date and fill null values in termdate column.
+5--Need to create age column--today -birthdate
+6--Delete the rows where age<18 
+
+** DATA ANALYSIS**
+1--WHAT IS THE GENDER BREAKDOWN OF EMPLOYEES IN COMPANY?
+2--WHAT IS THE RACE/ETHINICITY BREAKDOWN OF EMPLOYEES IN COMPANY?
+3--WHAT IS THE AGE DISTRIBUTION OF EMPLOYEES IN THE COMPANY-- creating age groups using case statement
+4-- HOW MANY EMPLOYESS WORKS AT HEADQUARTERS VS REMOTE LOCATION
+5--Age analysis with gender also
+6--WHAT IS THE AVERAGE LENGTH OF EMPLOYEEMENT WHO HAVE BEEN TERMINATED ---using datediff(termdate,hiredate)
+7--How does the gender distribution vary accross departments and job titles?
+8--What is the distribution of job titles accross the company?
+9--Which department has highest termination rate?---using subquery
+10--What is distribution of employees across locations by city and state
+11--How has companys employee count changed over time based on hire and term date
+12--What is the tenure distribution of each department
+
